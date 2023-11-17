@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tache de validation 9</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <header>
+    <div class="header container-fluid d-flex justify-content-between py-3 fixed-top">
+        <nav class="navbar navbar-expand-lg pb-2">
+            <div>
+             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="bi bi-list-nested navbar-toggler-icon text-light"></i>
+               
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-light me-2" aria-current="page" href="index.html">ACCUEIL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light me-2" href="list-produit.html">LIST DE NOS PRODUITS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light me-2" href="details-produit.html">DETAILS PRODUITS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light me-2" href="conexion.html">CONNEXION</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light me-2" href="inscription.html">INSCRIPTION</a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="search-bar d-flex">
+            <input type="search" id="site-search" name="q" placeholder="Rechercher">
+            <button class="button"><img src="images/ali.jpg" class="cercle"></button>
+        </div>
+        <div>
+            <i class="bi bi-cart fa-3x pe-4"></i>
+        </div>
+    </div>
+</header>
+    <main>
+<!------------------------------ section1 -------------------------->
+  <section id="sec1">
+    <h1 class="text-center pt-5"><span>LIST</span> DES PRODUITS LES PLUS ACHETER</h1>
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdroptree1">
+           <div class="shadow"> <img src="images/complement5.jpeg" alt="une image"></div>
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdroptree1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdroptree1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  
+                </div>
+                <div class="modal-body d-flex">
+                  <img src="images/complement5.jpeg" alt="une image">
+                  <div class="px-5">
+                    <p>Collier Bouclesd'oreilles  21K India 183.72</p>
+                    <h4>4.564.546FCFA</h4>
+                    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                      aliqua.</p>
+                  </div>
+                </div>
+                
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdroptwo">
+            <div class="shadow"><img src="images/imgd.jpg" alt="une image"></div>
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdroptwo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdroptwoLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  
+                </div>
+                <div class="modal-body d-flex">
+                  <img src="images/imgd.jpg" alt="une image">
+                  <div class="px-5">
+                    <p>Collier Bouclesd'oreilles Bagues et Bracelets 21K India 183.72</p>
+                    <h4>7.564.546FCFA</h4>
+                    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                      aliqua.</p>
+                  </div>
+                </div>
+                
+                </div>
+            </div>
+          </div>
+           
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropfour">
+            <div class="shadow"><img src="images/image4.jpg" alt="une image"></div>
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdropfour" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropfourLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  
+                </div>
+                <div class="modal-body d-flex">
+                  <img src="images/image4.jpg" alt="une image">
+                  <div class="px-5">
+                    <p>Boucless et Bagues 21K India 183.72</p>
+                    <h4>5.564.546FCFA</h4>
+                    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                      aliqua.</p>
+                  </div>
+                </div>
+                
+                </div>
+            </div>
+          </div>
+              
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+           <!-- Button trigger modal -->
+  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropon">
+    <div class="shadow"><img src="images/imge.jpg" alt="une image"></div>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdropon" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdroponLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          
+        </div>
+        <div class="modal-body d-flex">
+          <img src="images/imge.jpg" alt="une image">
+          <div class="px-5">
+            <p>Collier Boucles d'oreilles et Bagues  18K India 185.72</p>
+            <h4>6.564.546FCFA</h4>
+            <p class="fs-5 pe-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+              aliqua.</p>
+          </div>
+        </div>
+        
+         </div>
+        </div>
+        </div>
+          
+
+        </div>
+     </div>
+     <div class="row g-5">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropdw">
+         <div class="shadow"> <img src="images/complement1.jpg" alt="une image"></div>
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdropdw" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropdwLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+              </div>
+              <div class="modal-body d-flex">
+                <img src="images/complement1.jpg" alt="une image">
+                <div class="px-5">
+                  <p>Bagues et Bracelets  21K India 183.72</p>
+                  <h4>5.964.546FCFA</h4>
+                  <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                    aliqua.</p>
+                </div>
+              </div>
+              
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropz">
+          <div class="shadow"><img src="images/complement8.jpeg" alt="une image"></div>
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdropz" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropccLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+              </div>
+              <div class="modal-body d-flex px-5">
+                <img src="images/complement8.jpeg" alt="une image">
+                <div class="px-5">
+                  <p>Parrure en or </p>
+                  <h4>5.564.546FCFA</h4>
+                  <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                    aliqua.</p>
+                </div>
+              </div>
+              
+              </div>
+          </div>
+        </div>
+         
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropbb">
+          <div class="shadow"><img src="images/complement4.jpeg" alt="une image"></div>
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdropbb" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropbbLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+              </div>
+              <div class="modal-body d-flex">
+                <img src="images/complement4.jpeg" alt="une image">
+                <div class="px-5">
+                  <p>BOUCLES D'OREILS 21Karas</p>
+                  <h4>2.964.546FCFA l'unite</h4>
+                  <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                    aliqua.</p>
+                </div>
+              </div>
+              
+              </div>
+          </div>
+        </div>
+            
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+         <!-- Button trigger modal -->
+<button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropaa">
+  <div class="shadow"><img src="images/s-l1200.webp" alt="une image"></div>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdropaa" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropaaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+      </div>
+      <div class="modal-body d-flex">
+        <img src="images/s-l1200.webp" alt="une image">
+        <div class="px-5">
+          <p>Bracelet India 185.72</p>
+          <h4>864.546FCFA l'unite</h4>
+          <p class="fs-5 pe-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+            aliqua.</p>
+        </div>
+      </div>
+      
+       </div>
+      </div>
+      </div>
+        
+
+      </div>
+   </div>
+    </div>
+  </section>
+  <!------------------------------ section2 -------------------------->
+  <section class="py-5" id="sec2">
+    <h1 class="text-center"><span>Nos</span> Diffferentes Types De Produits</h1>
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdroptree">
+           <div class="shadow"> <img src="images/imgb.jpg" alt="une image"></div>
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdroptree" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdroptreeLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  
+                </div>
+                <div class="modal-body d-flex">
+                  <img src="images/imgb.jpg" alt="une image">
+                  <div class="px-5">
+                    <p>Collier Bouclesd'oreilles et Bagues  21K India 183.72</p>
+                    <h4>7.564.546FCFA</h4>
+                    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                      aliqua.</p>
+                  </div>
+                </div>
+                
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdroptwo">
+            <div class="shadow"><img src="images/imgd.jpg" alt="une image"></div>
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdroptwo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdroptwoLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  
+                </div>
+                <div class="modal-body d-flex">
+                  <img src="images/imgd.jpg" alt="une image">
+                  <div class="px-5">
+                    <p>Collier Bouclesd'oreilles Bagues et Bracelets 21K India 183.72</p>
+                    <h4>7.564.546FCFA</h4>
+                    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                      aliqua.</p>
+                  </div>
+                </div>
+                
+                </div>
+            </div>
+          </div>
+           
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropfour">
+            <div class="shadow"><img src="images/image4.jpg" alt="une image"></div>
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdropfour" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropfourLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  
+                </div>
+                <div class="modal-body d-flex">
+                  <img src="images/image4.jpg" alt="une image">
+                  <div class="px-5">
+                    <p>Boucless et Bagues 21K India 183.72</p>
+                    <h4>1.564.546FCFA</h4>
+                    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                      aliqua.</p>
+                  </div>
+                </div>
+                
+                </div>
+            </div>
+          </div>
+              
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+           <!-- Button trigger modal -->
+  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropon">
+    <div class="shadow"><img src="images/imge.jpg" alt="une image"></div>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdropon" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdroponLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          
+        </div>
+        <div class="modal-body d-flex">
+          <img src="images/imge.jpg" alt="une image">
+          <div class="px-5">
+            <p>Collier Boucles d'oreilles et Bagues  18K India 185.72</p>
+            <h4>1.564.546FCFA</h4>
+            <p class="fs-5 pe-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+              aliqua.</p>
+          </div>
+        </div>
+        
+         </div>
+        </div>
+        </div>
+          
+
+        </div>
+     </div>
+     <div class="row g-5">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropdd">
+         <div class="shadow"> <img src="images/image13.jpg" alt="une image"></div>
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdropdd" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropddLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+              </div>
+              <div class="modal-body d-flex">
+                <img src="images/image13.jpg" alt="une image">
+                <div class="px-5">
+                  <p>Bagues  21K India 183.72</p>
+                  <h4>764.546FCFA</h4>
+                  <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                    aliqua.</p>
+                </div>
+              </div>
+              
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropcc">
+          <div class="shadow"><img src="images/image3.jpg" alt="une image"></div>
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdropcc" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropccLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+              </div>
+              <div class="modal-body d-flex px-5">
+                <img src="images/image3.jpg" alt="une image">
+                <div class="px-5">
+                  <p>Parrure en or </p>
+                  <h4>7.564.546FCFA</h4>
+                  <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                    aliqua.</p>
+                </div>
+              </div>
+              
+              </div>
+          </div>
+        </div>
+         
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropbb">
+          <div class="shadow"><img src="images/image5.jpg" alt="une image"></div>
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdropbb" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropbbLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+              </div>
+              <div class="modal-body d-flex">
+                <img src="images/image5.jpg" alt="une image">
+                <div class="px-5">
+                  <p>Bracelet 21Karas</p>
+                  <h4>864.546FCFA l'unite</h4>
+                  <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                    aliqua.</p>
+                </div>
+              </div>
+              
+              </div>
+          </div>
+        </div>
+            
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+         <!-- Button trigger modal -->
+<button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropaa">
+  <div class="shadow"><img src="images/s-l1200.webp" alt="une image"></div>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdropaa" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropaaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+      </div>
+      <div class="modal-body d-flex">
+        <img src="images/s-l1200.webp" alt="une image">
+        <div class="px-5">
+          <p>Bracelet India 185.72</p>
+          <h4>764.546FCFA l'unite</h4>
+          <p class="fs-5 pe-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+            aliqua.</p>
+        </div>
+      </div>
+      
+       </div>
+      </div>
+      </div>
+        
+
+      </div>
+   </div>
+   <div class="row g-5">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdroptree1">
+       <div class="shadow"> <img src="images/complement5.jpeg" alt="une image"></div>
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdroptree1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdroptree1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              
+            </div>
+            <div class="modal-body d-flex">
+              <img src="images/complement5.jpeg" alt="une image">
+              <div class="px-5">
+                <p>Collier Bouclesd'oreilles  21K India 183.72</p>
+                <h4>4.564.546FCFA</h4>
+                <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                  aliqua.</p>
+              </div>
+            </div>
+            
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdroptwo">
+        <div class="shadow"><img src="images/imgd.jpg" alt="une image"></div>
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdroptwo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdroptwoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              
+            </div>
+            <div class="modal-body d-flex">
+              <img src="images/imgd.jpg" alt="une image">
+              <div class="px-5">
+                <p>Collier Bouclesd'oreilles Bagues et Bracelets 21K India 183.72</p>
+                <h4>7.564.546FCFA</h4>
+                <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                  aliqua.</p>
+              </div>
+            </div>
+            
+            </div>
+        </div>
+      </div>
+       
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropfour">
+        <div class="shadow"><img src="images/image4.jpg" alt="une image"></div>
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdropfour" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropfourLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              
+            </div>
+            <div class="modal-body d-flex">
+              <img src="images/image4.jpg" alt="une image">
+              <div class="px-5">
+                <p>Boucless et Bagues 21K India 183.72</p>
+                <h4>1.564.546FCFA</h4>
+                <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                  aliqua.</p>
+              </div>
+            </div>
+            
+            </div>
+        </div>
+      </div>
+          
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <!-- Button trigger modal -->
+<button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropon">
+<div class="shadow"><img src="images/imge.jpg" alt="une image"></div>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdropon" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdroponLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+    <div class="modal-header">
+      <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+    </div>
+    <div class="modal-body d-flex">
+      <img src="images/imge.jpg" alt="une image">
+      <div class="px-5">
+        <p>Collier Boucles d'oreilles et Bagues  18K India 185.72</p>
+        <h4>1.564.546FCFA</h4>
+        <p class="fs-5 pe-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+          aliqua.</p>
+      </div>
+    </div>
+    
+     </div>
+    </div>
+    </div>
+      
+
+    </div>
+ </div>
+ <div class="row g-5">
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropdw">
+     <div class="shadow"> <img src="images/complement1.jpg" alt="une image"></div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdropdw" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropdwLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            
+          </div>
+          <div class="modal-body d-flex">
+            <img src="images/complement1.jpg" alt="une image">
+            <div class="px-5">
+              <p>Bagues et Bracelets  21K India 183.72</p>
+              <h4>564.546FCFA</h4>
+              <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                aliqua.</p>
+            </div>
+          </div>
+          
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropz">
+      <div class="shadow"><img src="images/complement8.jpeg" alt="une image"></div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdropz" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropccLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            
+          </div>
+          <div class="modal-body d-flex px-5">
+            <img src="images/complement8.jpeg" alt="une image">
+            <div class="px-5">
+              <p>Parrure en or </p>
+              <h4>7.564.546FCFA</h4>
+              <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                aliqua.</p>
+            </div>
+          </div>
+          
+          </div>
+      </div>
+    </div>
+     
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropbb">
+      <div class="shadow"><img src="images/complement4.jpeg" alt="une image"></div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdropbb" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropbbLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            
+          </div>
+          <div class="modal-body d-flex">
+            <img src="images/complement4.jpeg" alt="une image">
+            <div class="px-5">
+              <p>BOUCLES D'OREILS 21Karas</p>
+              <h4>2.364.546FCFA l'unite</h4>
+              <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                aliqua.</p>
+            </div>
+          </div>
+          
+          </div>
+      </div>
+    </div>
+        
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+     <!-- Button trigger modal -->
+<button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdropaa">
+<div class="shadow"><img src="images/s-l1200.webp" alt="une image"></div>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdropaa" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropaaLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+  <div class="modal-header">
+    <!-- <h1 class="modal-title fs-5" id="staticBackdroponeLabel">Modal title</h1> -->
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+  </div>
+  <div class="modal-body d-flex">
+    <img src="images/s-l1200.webp" alt="une image">
+    <div class="px-5">
+      <p>Bracelet India 185.72</p>
+      <h4>764.546FCFA l'unite</h4>
+      <p class="fs-5 pe-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+        aliqua.</p>
+    </div>
+  </div>
+  
+   </div>
+  </div>
+  </div>
+    
+
+  </div>
+</div>
+    </div>
+  </section>
+
+<!------------------------------------------ section3 ----------------------------------------->
+    <section id="sec3 classpy-5">
+      <h1 class="text-center"><span>Temoi</span>gnage de nos clients</h1>
+      <div class="container py-5">
+        <div id="carouselExampleIndicators" class="carousel slide" dgit initata-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="800">
+                <img src="images/maxresdefault.jpg" class="d-block w-100 rounded" alt="..."  style="height: 700px;">
+              </div>
+              <img src="gdbd
+              eebdbjene" alt="">
+              <div class="carousel-item">
+                <img src="images/tre.png" class="d-block w-100 rounded" alt="..." style="height: 700px;">
+              </div>
+              <div class="carousel-item">
+                <img src="images/tem3.jpg" class="d-block w-100 rounded" alt="..." style="height: 700px;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+       
+    </div>
+
+    </section>
+    </main>
+    <footer>
+      <p class="text-center py-5 mb-0 bg-secondary">Copyright 2023</p>
+    </footer>
+    
+</body>
+</html>
