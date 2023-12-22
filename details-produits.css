@@ -32,14 +32,17 @@ width: 30px;
 height: 30px;
 }
 
-@media (max-width:1000px){
-.navbar-nav li a{
-position: relative;
-left: 50px;
-
-
-}
-}
+#none{
+    display: none;
+  }
+  @media (max-width:1000px){
+    input{
+      display: none;
+      }
+      #none{
+        display: block;
+      }
+  }
 main img {
     width: 100%;
     height: 200px;

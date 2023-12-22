@@ -31,14 +31,19 @@ border-radius: 0px 50px 50px 0px;
 width: 30px;
 height: 30px;
 }
-
-@media (max-width:1000px){
 .navbar-nav li a{
-position: relative;
-left: 50px;
-
 
 }
+#none{
+  display: none;
+}
+@media (max-width:1000px){
+  input{
+    display: none;
+    }
+    #none{
+      display: block;
+    }
 }
 /******************************8 sec1 *********************************/
 #sec2 img , #sec1 img{
